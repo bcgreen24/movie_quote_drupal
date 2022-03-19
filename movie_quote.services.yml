@@ -1,0 +1,3 @@
+services:
+  movie_quote.quote:
+    class: Drupal\movie_quote\Services\MovieQuoteService

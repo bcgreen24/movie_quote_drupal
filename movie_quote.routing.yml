@@ -1,0 +1,7 @@
+movie_quote.quote:
+  path: '/quote'
+  defaults:
+    _controller: Drupal\movie_quote\Controller\MovieQuoteController::movieQuote
+    _title: 'Movie Quote'
+  requirements:
+    _permission: 'access content'
