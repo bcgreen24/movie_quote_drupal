@@ -1,40 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
-
-div.flex{
+div.flex {
     font-family: 'Eczar', serif;
 }
 
-body{
-    background-color: rgb(48, 59, 77);
-}
-
-.slidefromright{
+.slidefromright {
     animation-duration: 3s;
     animation-name: slidein;
 }
 
-.fadein{
+.fadein {
     animation-duration: 3s;
     animation-name: fadein;
 }
 
 @keyframes fadein {
-    from{
+    from {
         opacity: 0;
     }
-
-    to{
+    to {
         opacity: 1;
     }
 }
 
-div#quote{
-
+div#quote {
     font-size: 32px;
     line-height: 1.1;
 }
 
-div#movie{
+div#movie {
     line-height: 1.1;
     font-size: 22px;
     text-transform: uppercase;
@@ -43,53 +36,45 @@ div#movie{
 }
 
 @keyframes slidein {
-    from{
+    from {
         opacity: 0;
         margin-left: 40px;
     }
-
-    to{
+    to {
         opacity: 1;
         margin-left: 0px;
     }
 }
 
-div#year{
+div#year {
     font-size: 20px;
     text-align: right;
     margin-top: 0px;
 }
 
-div.flex{
-    display:flex;
+div.quote_box {
+    display: flex;
     flex-direction: column;
     text-align: left;
-}
-
-button#getQuote{
-    width: 175px;
-    background-color:rgb(39, 65, 54);
-    color: white;
-}
-
-section{
-    width: 75%;
-    text-align: center;
-    margin-left:auto;
-    margin-right:auto;
-    background-color:rgb(216, 167, 102);
+    background-color: rgb(230, 212, 111);
     padding: 20px;
 }
 
-div#button{
+button#getQuote {
+    width: 175px;
+    background-color: rgb(39, 65, 54);
+    color: white;
+}
+
+div#button {
     margin-top: 20px;
     text-align: center;
 }
 
-div#wrapper{
-    margin-left:auto;
-    margin-right:auto;
-    padding:20px;
+div#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
     width: 75%;
     margin-top: 20px;
     border-radius: 10px;
